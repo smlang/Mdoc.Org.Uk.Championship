@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mdoc.Org.Uk.Championship.Forms" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DataDirectoryPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\OneDrive\Private\Steve\Documents\Orienteering\Championship\Data</Value>
+    </Setting>
+    <Setting Name="WebPageDirectoryPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\OneDrive\Private\Steve\Documents\Orienteering\Championship\WebPages</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

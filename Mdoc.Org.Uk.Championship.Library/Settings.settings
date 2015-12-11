@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mdoc.Org.Uk.Championship.Library" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WordRegex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[a-z\'\-]+</Value>
+    </Setting>
+    <Setting Name="DurationRegex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\A(?&lt;unit&gt;\d+)(:(?&lt;unit&gt;\d{2,2})){0,2}\Z</Value>
+    </Setting>
+    <Setting Name="DistanceRegex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;distance&gt;\d+\.?\d*)\s*km</Value>
+    </Setting>
+    <Setting Name="OpenTechnicalDifficulty" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="MinimumSeniorAge" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="DefaultAgeClass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">M21</Value>
+    </Setting>
+    <Setting Name="AnchorRegex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\&lt;a\s+href\=\"([^\"]*)\"[^&gt;]*\&gt;([^\&lt;]*)&lt;/a&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
